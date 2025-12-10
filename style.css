@@ -32,20 +32,26 @@ body {
     color: #fff;
 }
 
+/* HERO */
 .hero {
     height: 100vh;
-    padding-top: 150px;
-    text-align: center;
+    display: flex;                 /* enables side alignment */
+    align-items: center;           /* center vertically */
+    justify-content: flex-start;   /* moves text to left side */
+
+    padding-left: 80px;            /* spacing from left */
+    text-align: left;              /* left-align the text */
 
     background-image: url('./lokesh.jpg');
-    background-size: contain;       
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #000;         
-
+    background-color: #000;
+    
     position: relative;
 }
 
+/* Dark overlay */
 .hero::before {
     content: "";
     position: absolute;
@@ -62,7 +68,6 @@ body {
     z-index: 1;
 }
 
-}
 
 .title {
     font-size: 48px;
