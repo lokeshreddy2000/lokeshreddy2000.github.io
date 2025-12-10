@@ -35,19 +35,15 @@ body {
 /* HERO */
 .hero {
     height: 100vh;
-    display: flex;                 /* enables side alignment */
-    align-items: center;           /* center vertically */
-    justify-content: flex-start;   /* moves text to left side */
-
-    padding-left: 80px;            /* spacing from left */
-    text-align: left;              /* left-align the text */
-
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+    padding-left: 80px;
     background-image: url('./lokesh.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #000;
-    
     position: relative;
 }
 
@@ -63,10 +59,20 @@ body {
     z-index: 0;
 }
 
-.hero * {
+.hero-content {
     position: relative;
     z-index: 1;
+    max-width: 600px;
+    text-align: left;
 }
+
+.hero h1,
+.hero h2,
+.hero p {
+    display: block;          /* forces each line to stack */
+    margin: 10px 0;          /* spacing between lines */
+}
+
 
 
 .title {
