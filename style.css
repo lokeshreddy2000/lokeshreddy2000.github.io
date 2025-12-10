@@ -37,10 +37,11 @@ body {
     padding-top: 150px;
     text-align: center;
 
-    background-image: url('lokesh.jpg');  /* <-- IMPORTANT */
-    background-size: cover;
+    background-image: url('./lokesh.jpg');
+    background-size: contain;       
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #000;         
 
     position: relative;
 }
