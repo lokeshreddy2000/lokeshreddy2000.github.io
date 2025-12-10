@@ -1,0 +1,104 @@
+body {
+    background-color: #0d0d0d;
+    color: #e6e6e6;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #111;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar .nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #bbb;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+.hero {
+    height: 100vh;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.highlight {
+    color: #00d1ff;
+}
+
+.subtitle {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #b3b3b3;
+}
+
+.tagline {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #aaa;
+}
+
+.container {
+    padding: 100px 10%;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #00d1ff;
+}
+
+.about-text {
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.skill-box {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+.skill-box h3 {
+    color: #00d1ff;
+}
+
+.contact a {
+    color: #00d1ff;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: #777;
+}
